@@ -1,0 +1,16 @@
+let filme = {
+    nome: 'Quebrando a Banca',
+    duração: '2h 3m ',
+    categoria: 'ação, suspense'
+
+};
+
+for (const prop in filme) {
+console.log(prop, ":", filme[prop])
+};
+
+const notasdofilme = [9.4, 7.5, 10];
+for (const notas of notasdofilme ) {
+console.log('notas do filme:', notas);
+};
+
